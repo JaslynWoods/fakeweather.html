@@ -10,35 +10,74 @@
       }
       h1 {
         color: #1a64d6;
-        font-size: 42;
-      }
-      .13/23 {
         font-size: 34px;
+      }
+      .heading{
+        color: black;
+      }
+      
+      .Tomorrow{
+        font-size: 20px;
+        padding: 30px 20px;
+      }
+      .Tomorrow:hover{
+        background-color: rgb(254, 254, 233);
+      }
+      .Saturday{
+        font-size: 20px;
+        padding: 30px;
+      }
+      .Saturday:hover{}
+      .Sunday{
+        font-size: 20px;
+        padding: 30px 30px 50px 30px;
+      }
+      .Sunday:hover{}
+      .Coded{
+        padding: 15px;
+        font-size: 20px;
+      }
+      button {
+        background-color: #1a64d6;
+        border-radius: 30px;
+        border-color: #1a64d6;
+        color: white;
+        font-size: 16px;
+        padding: 15px 20px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background-color: white;
+        color: #1a64d6;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
     <span style="font-size: 35px">&#127780;</span>
-    <h1>Currently 21° in Tokyo</h1>
-    <dev class="13/23">
-      <li>
-        13°/
-        <strong> 23° </strong>
-      </li>
-    </dev>
-    <dev>
-      <span style="font-size: 14px">&#127783;</span>
+    <h1>
+      <strong> Currently 21° in Tokyo </strong>
+    <div class="heading">
+      13°/
+      <strong> 23° </strong>
+    
+      </h1>
+    <div class="Tomorrow">
+      <span style="font-size: 16px">&#127783;</span>
       <strong> Tomorrow </strong>
-      10°/22°
-    </dev>
-
-    <span style="font-size: 100px">&#127781;</span>
-    <strong> Saturday </strong>
-    15°/17°
-    <span style="font-size: 100px">&#9728;&#65039;</span>
-    <strong> Sunday </strong>
-    25°/28°
+      <div>10°/22°</div>
+    </div>
+    <div class="Saturday">
+      <span style="font-size: 16px">&#127781;</span>
+      <strong> Saturday </strong>
+      <div>15°/17°</div>
+    </div>
+    <div class="Sunday">
+      <span style="font-size: 16px">&#9728;&#65039;</span>
+      <strong> Sunday </strong>
+      <div>25°/28°</div>
+    </div>
     <button>Change city</button>
-    Coded by Jaslyn Woods
+    <div class="Coded">Coded by Jaslyn Woods</div>
   </body>
 </html>
